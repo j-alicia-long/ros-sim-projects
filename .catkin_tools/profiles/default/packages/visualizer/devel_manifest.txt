@@ -1,0 +1,5 @@
+visualizer
+/home/robotclass/fastsim/devel/.private/visualizer/cmake.lock /home/robotclass/fastsim/devel/./cmake.lock
+/home/robotclass/fastsim/devel/.private/visualizer/share/visualizer/cmake/visualizerConfig-version.cmake /home/robotclass/fastsim/devel/share/visualizer/cmake/visualizerConfig-version.cmake
+/home/robotclass/fastsim/devel/.private/visualizer/share/visualizer/cmake/visualizerConfig.cmake /home/robotclass/fastsim/devel/share/visualizer/cmake/visualizerConfig.cmake
+/home/robotclass/fastsim/devel/.private/visualizer/lib/pkgconfig/visualizer.pc /home/robotclass/fastsim/devel/lib/pkgconfig/visualizer.pc

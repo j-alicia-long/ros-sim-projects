@@ -12,6 +12,19 @@
 
   <node type="rqt_publisher" name="rqt_publisher" pkg="rqt_publisher"/>
 
+  <node name="state_safety_node" pkg="simple_control" type="state_and_safety.py" output="screen">
+    <param name="virtual_cage/x" type="double" value="3" />
+    <param name="virtual_cage/y" type="double" value="3" />
+    <param name="virtual_cage/z" type="double" value="3" />
+    <param name="acceptance_range" type="double" value="0.25" />
+  </node>
+
+  <node name="keyboard_manager_node" pkg="simple_control" type="keyboard_manager.py" output="screen"/>
+
+  <node name="keyboard" pkg="keyboard" type="keyboard"/>
+
+  <node name="pressure_sensor" pkg="sensor_simulators" type="pressure.py"/>
+
   <include file="$(find flightcontroller)/launch/angle.launch">
   </include>
 

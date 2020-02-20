@@ -1,0 +1,8 @@
+prefix=/home/robotclass/fastsim/devel/.private/flightgoggles
+
+Name: flightgoggles
+Description: Description of flightgoggles
+Version: 0.0.0
+Cflags: -I/home/robotclass/fastsim/devel/.private/flightgoggles/include
+Libs: -L/home/robotclass/fastsim/devel/.private/flightgoggles/lib 
+Requires: message_runtime

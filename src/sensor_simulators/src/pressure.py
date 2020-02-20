@@ -4,6 +4,7 @@ import time
 from geometry_msgs.msg import PoseStamped
 from std_msgs.msg import Float64
 import random
+from sensor_simulators.srv import calibrate, calibrateResponse
 
 # Create a class which saves the altitude of the drone and esimates the pressure
 class PressureSensor():
@@ -27,6 +28,9 @@ class PressureSensor():
     # Determines the baseline value of the perssure sensor at height 0m
     self.baseline_value = 0
 
+    # Adds pressure calibrate service
+    self.service = rospy.Service('calibrate_pressure', calibrate, self.CalibrateFunction)
+
     # Call the mainloop of our class
     self.mainloop()
 
@@ -36,6 +40,16 @@ class PressureSensor():
     # Save the drones alitude
     self.altitude = msg.pose.position.z
 
+
+  # Saves the baseline value
+  def CalibrateFunction(self, request):
+    # If we want to calibrate
+    if request.zero == True:
+      self.baseline_value = self.pressure
+    else:
+      self.baseline_value = 0
+    # Return the new baseline value
+    return calibrateResponse(self.baseline_value)
 
 
   # The main loop of the function

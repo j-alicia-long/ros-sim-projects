@@ -1,0 +1,6 @@
+devel_space: /home/robotclass/fastsim/devel
+install: false
+install_space: /home/robotclass/fastsim/install
+profile: default
+source_space: /home/robotclass/fastsim/src
+workspace: /home/robotclass/fastsim

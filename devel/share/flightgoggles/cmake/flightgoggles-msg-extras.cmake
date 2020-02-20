@@ -1,0 +1,1 @@
+/home/robotclass/fastsim/devel/.private/flightgoggles/share/flightgoggles/cmake/flightgoggles-msg-extras.cmake

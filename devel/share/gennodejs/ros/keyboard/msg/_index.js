@@ -1,0 +1,1 @@
+/home/robotclass/fastsim/devel/.private/keyboard/share/gennodejs/ros/keyboard/msg/_index.js

@@ -1,0 +1,8 @@
+prefix=/home/robotclass/fastsim/install
+
+Name: keyboard
+Description: Description of keyboard
+Version: 0.1.1
+Cflags: -I/home/robotclass/fastsim/install/include
+Libs: -L/home/robotclass/fastsim/install/lib 
+Requires: roscpp std_msgs message_runtime

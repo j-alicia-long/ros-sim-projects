@@ -1,0 +1,1 @@
+/home/robotclass/fastsim/devel/.private/sensor_simulators/share/common-lisp/ros/sensor_simulators/srv/sensor_simulators-srv.asd

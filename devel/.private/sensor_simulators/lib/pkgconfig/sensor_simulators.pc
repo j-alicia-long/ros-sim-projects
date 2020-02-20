@@ -1,0 +1,8 @@
+prefix=/home/robotclass/fastsim/devel/.private/sensor_simulators
+
+Name: sensor_simulators
+Description: Description of sensor_simulators
+Version: 0.0.0
+Cflags: -I/home/robotclass/fastsim/devel/.private/sensor_simulators/include
+Libs: -L/home/robotclass/fastsim/devel/.private/sensor_simulators/lib 
+Requires: 

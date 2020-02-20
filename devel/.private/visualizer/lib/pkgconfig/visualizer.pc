@@ -1,0 +1,8 @@
+prefix=/home/robotclass/fastsim/devel/.private/visualizer
+
+Name: visualizer
+Description: Description of visualizer
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/robotclass/fastsim/devel/.private/visualizer/lib 
+Requires: 

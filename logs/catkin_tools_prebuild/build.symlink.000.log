@@ -1,0 +1,12 @@
+Symlinking /home/robotclass/fastsim/devel/./local_setup.sh
+Symlinking /home/robotclass/fastsim/devel/./local_setup.zsh
+Symlinking /home/robotclass/fastsim/devel/./setup.zsh
+Symlinking /home/robotclass/fastsim/devel/./setup.sh
+Symlinking /home/robotclass/fastsim/devel/./_setup_util.py
+Symlinking /home/robotclass/fastsim/devel/./local_setup.bash
+Symlinking /home/robotclass/fastsim/devel/./cmake.lock
+Symlinking /home/robotclass/fastsim/devel/./env.sh
+Symlinking /home/robotclass/fastsim/devel/./setup.bash
+Symlinking /home/robotclass/fastsim/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/robotclass/fastsim/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/robotclass/fastsim/devel/lib/pkgconfig/catkin_tools_prebuild.pc

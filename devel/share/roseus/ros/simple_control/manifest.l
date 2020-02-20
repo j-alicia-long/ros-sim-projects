@@ -1,0 +1,1 @@
+/home/robotclass/fastsim/devel/.private/simple_control/share/roseus/ros/simple_control/manifest.l

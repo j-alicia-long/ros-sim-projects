@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/robotclass/fastsim/devel/.private/flightgoggles_uav_dynamics/setup.sh
