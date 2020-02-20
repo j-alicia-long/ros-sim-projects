@@ -67,8 +67,9 @@ class PressureSensor():
       self.pressure_pub.publish(pressure_msg)
 
       # Compute the pressure in milibars (according to https://www.weather.gov/media/epz/wxcalc/pressureAltitude.pdf)
-      common_term = pow(4.43077*pow(10,6)-self.altitude, 0.2553026)
-      self.pressure = (-0.0000229797 * self.altitude * common_term) + (20.3635* common_term)
+      h = self.altitude
+      common = pow((44307.7 - h),(12145.0/47571.0))
+      self.pressure = (-3.86423)*(pow(10,-22))*(pow(h,5))*(common) + (8.56075)*(pow(10,-17))*(pow(h,4))*(common) - (7.58614)*(pow(10,-12))*(pow(h,3))*(common) + (3.36124)*(pow(10,-7))*(pow(h,2))*(common) - (0.00744645)*(h)*(common) + (65.987)*(common) 
 
       # Add sensor noise
       noise = pow(10,-5) * random.uniform(-1, 1)
