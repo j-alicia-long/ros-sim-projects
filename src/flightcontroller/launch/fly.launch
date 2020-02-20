@@ -25,6 +25,9 @@
 
   <node name="pressure_sensor" pkg="sensor_simulators" type="pressure.py"/>
 
+  <node name="pressure_altitude_node" pkg="altitude" type="pressure_altitude.py"/>
+
+
   <include file="$(find flightcontroller)/launch/angle.launch">
   </include>
 

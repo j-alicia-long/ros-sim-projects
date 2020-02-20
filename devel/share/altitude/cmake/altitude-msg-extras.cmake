@@ -1,0 +1,1 @@
+/home/robotclass/fastsim/devel/.private/altitude/share/altitude/cmake/altitude-msg-extras.cmake

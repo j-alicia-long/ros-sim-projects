@@ -1,0 +1,8 @@
+prefix=/home/robotclass/fastsim/devel/.private/altitude
+
+Name: altitude
+Description: Description of altitude
+Version: 0.0.0
+Cflags: -I/home/robotclass/fastsim/devel/.private/altitude/include
+Libs: -L/home/robotclass/fastsim/devel/.private/altitude/lib 
+Requires: 

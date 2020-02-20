@@ -1,0 +1,1 @@
+/home/robotclass/fastsim/devel/.private/altitude/share/common-lisp/ros/altitude/msg/AltitudeStamped.lisp
