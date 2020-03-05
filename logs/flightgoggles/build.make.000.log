@@ -1,0 +1,38 @@
+[35m[1mScanning dependencies of target _flightgoggles_generate_messages_check_deps_IRMarker[0m
+[35m[1mScanning dependencies of target _flightgoggles_generate_messages_check_deps_IRMarkerArray[0m
+[  0%] Built target _flightgoggles_generate_messages_check_deps_IRMarker
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target _flightgoggles_generate_messages_check_deps_IRMarkerArray
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target flightgoggles_generate_messages_lisp[0m
+[  8%] [34m[1mGenerating Lisp code from flightgoggles/IRMarkerArray.msg[0m
+[35m[1mScanning dependencies of target flightgoggles_generate_messages_cpp[0m
+[ 16%] [34m[1mGenerating C++ code from flightgoggles/IRMarkerArray.msg[0m
+[ 25%] [34m[1mGenerating Lisp code from flightgoggles/IRMarker.msg[0m
+[ 25%] Built target flightgoggles_generate_messages_lisp
+[35m[1mScanning dependencies of target flightgoggles_generate_messages_eus[0m
+[ 33%] [34m[1mGenerating EusLisp code from flightgoggles/IRMarkerArray.msg[0m
+[ 41%] [34m[1mGenerating EusLisp code from flightgoggles/IRMarker.msg[0m
+[ 50%] [34m[1mGenerating C++ code from flightgoggles/IRMarker.msg[0m
+[ 58%] [34m[1mGenerating EusLisp manifest code for flightgoggles[0m
+[ 58%] Built target flightgoggles_generate_messages_cpp
+[35m[1mScanning dependencies of target flightgoggles_generate_messages_py[0m
+[ 66%] [34m[1mGenerating Python from MSG flightgoggles/IRMarkerArray[0m
+[ 75%] [34m[1mGenerating Python from MSG flightgoggles/IRMarker[0m
+[ 83%] [34m[1mGenerating Python msg __init__.py for flightgoggles[0m
+[ 83%] Built target flightgoggles_generate_messages_py
+[35m[1mScanning dependencies of target flightgoggles_generate_messages_nodejs[0m
+[ 91%] [34m[1mGenerating Javascript code from flightgoggles/IRMarkerArray.msg[0m
+[100%] [34m[1mGenerating Javascript code from flightgoggles/IRMarker.msg[0m
+[100%] Built target flightgoggles_generate_messages_nodejs
+[100%] Built target flightgoggles_generate_messages_eus
+[35m[1mScanning dependencies of target flightgoggles_generate_messages[0m
+[100%] Built target flightgoggles_generate_messages

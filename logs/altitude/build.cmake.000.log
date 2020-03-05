@@ -40,14 +40,6 @@ Not searching for unused variables given on the command line.
 [36m--[0m BUILD_SHARED_LIBS is on
 [36m--[0m Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
 [36m--[0m altitude: 1 messages, 0 services
-[31m[1mCMake Error[0m at /opt/ros/kinetic/share/catkin/cmake/catkin_package.cmake:224 (message):
-  catkin_package() DEPENDS on the catkin package 'message_runtime' which must
-  therefore be listed as a run dependency in the package.xml
-[36mCall Stack (most recent call first):[0m
-  /opt/ros/kinetic/share/catkin/cmake/catkin_package.cmake:102 (_catkin_package)
-  CMakeLists.txt:87 (catkin_package)
-
-
-[36m--[0m Configuring incomplete, errors occurred!
-See also "/home/robotclass/fastsim/build/altitude/CMakeFiles/CMakeOutput.log".
-See also "/home/robotclass/fastsim/build/altitude/CMakeFiles/CMakeError.log".
+[36m--[0m Configuring done
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /home/robotclass/fastsim/build/altitude

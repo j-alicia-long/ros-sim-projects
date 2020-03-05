@@ -27,7 +27,7 @@ class PressureAltitude():
 
         # from the pressure in msg, and with current time stamp
         self.altitude.value = alt 
-        self.altitude.stamp =  rospy.get_rostime()
+        self.altitude.stamp = rospy.get_rostime()
         self.altitude_pub.publish(self.altitude)
 
 

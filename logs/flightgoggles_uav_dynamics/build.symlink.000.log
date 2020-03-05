@@ -1,0 +1,6 @@
+Symlinking /home/robotclass/fastsim/devel/share/flightgoggles_uav_dynamics/cmake/flightgoggles_uav_dynamicsConfig-version.cmake
+Symlinking /home/robotclass/fastsim/devel/share/flightgoggles_uav_dynamics/cmake/flightgoggles_uav_dynamicsConfig.cmake
+Symlinking /home/robotclass/fastsim/devel/lib/libmulticopterDynamicsSim.so
+Symlinking /home/robotclass/fastsim/devel/lib/libinertialMeasurementSim.so
+Symlinking /home/robotclass/fastsim/devel/lib/pkgconfig/flightgoggles_uav_dynamics.pc
+Symlinking /home/robotclass/fastsim/devel/lib/flightgoggles_uav_dynamics/node

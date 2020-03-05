@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/robotclass/fastsim/build
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6b419/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6b419.dir/build.make CMakeFiles/cmTC_6b419.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_11e20/fast"
+/usr/bin/make -f CMakeFiles/cmTC_11e20.dir/build.make CMakeFiles/cmTC_11e20.dir/build
 make[1]: Entering directory '/home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6b419.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_6b419.dir/testCCompiler.c.o   -c /home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_6b419
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b419.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_6b419.dir/testCCompiler.c.o  -o cmTC_6b419 -rdynamic 
+Building C object CMakeFiles/cmTC_11e20.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_11e20.dir/testCCompiler.c.o   -c /home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_11e20
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11e20.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_11e20.dir/testCCompiler.c.o  -o cmTC_11e20 -rdynamic 
 make[1]: Leaving directory '/home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f9a51/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f9a51.dir/build.make CMakeFiles/cmTC_f9a51.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_d932a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d932a.dir/build.make CMakeFiles/cmTC_d932a.dir/build
 make[1]: Entering directory '/home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f9a51.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_f9a51.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_f9a51
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9a51.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_f9a51.dir/CMakeCCompilerABI.c.o  -o cmTC_f9a51 -rdynamic  
+Building C object CMakeFiles/cmTC_d932a.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_d932a.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_d932a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d932a.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_d932a.dir/CMakeCCompilerABI.c.o  -o cmTC_d932a -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -59,8 +59,8 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f9a51' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBYivSr.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_f9a51 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_f9a51.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d932a' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdQA2Iz.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_d932a /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_d932a.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp'
 
 
@@ -68,14 +68,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f9a51/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f9a51.dir/build.make CMakeFiles/cmTC_f9a51.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_d932a/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_d932a.dir/build.make CMakeFiles/cmTC_d932a.dir/build]
   ignore line: [make[1]: Entering directory '/home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_f9a51.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_f9a51.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_f9a51]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9a51.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_f9a51.dir/CMakeCCompilerABI.c.o  -o cmTC_f9a51 -rdynamic  ]
+  ignore line: [Building C object CMakeFiles/cmTC_d932a.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_d932a.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_d932a]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d932a.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_d932a.dir/CMakeCCompilerABI.c.o  -o cmTC_d932a -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -85,13 +85,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f9a51' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBYivSr.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_f9a51 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_f9a51.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d932a' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdQA2Iz.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_d932a /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_d932a.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccBYivSr.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccdQA2Iz.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -109,7 +109,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_f9a51] ==> ignore
+    arg [cmTC_d932a] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -121,7 +121,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_f9a51.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_d932a.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -155,14 +155,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0d1a9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0d1a9.dir/build.make CMakeFiles/cmTC_0d1a9.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_abc9e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_abc9e.dir/build.make CMakeFiles/cmTC_abc9e.dir/build
 make[1]: Entering directory '/home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0d1a9.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_0d1a9.dir/feature_tests.c.o   -c /home/robotclass/fastsim/build/flightcontroller/CMakeFiles/feature_tests.c
-Linking C executable cmTC_0d1a9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d1a9.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_0d1a9.dir/feature_tests.c.o  -o cmTC_0d1a9 -rdynamic 
+Building C object CMakeFiles/cmTC_abc9e.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_abc9e.dir/feature_tests.c.o   -c /home/robotclass/fastsim/build/flightcontroller/CMakeFiles/feature_tests.c
+Linking C executable cmTC_abc9e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abc9e.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_abc9e.dir/feature_tests.c.o  -o cmTC_abc9e -rdynamic 
 make[1]: Leaving directory '/home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp'
 
 
@@ -175,14 +175,14 @@ make[1]: Leaving directory '/home/robotclass/fastsim/build/flightcontroller/CMak
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4f2ab/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4f2ab.dir/build.make CMakeFiles/cmTC_4f2ab.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_56e81/fast"
+/usr/bin/make -f CMakeFiles/cmTC_56e81.dir/build.make CMakeFiles/cmTC_56e81.dir/build
 make[1]: Entering directory '/home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4f2ab.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_4f2ab.dir/feature_tests.c.o   -c /home/robotclass/fastsim/build/flightcontroller/CMakeFiles/feature_tests.c
-Linking C executable cmTC_4f2ab
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f2ab.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_4f2ab.dir/feature_tests.c.o  -o cmTC_4f2ab -rdynamic 
+Building C object CMakeFiles/cmTC_56e81.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_56e81.dir/feature_tests.c.o   -c /home/robotclass/fastsim/build/flightcontroller/CMakeFiles/feature_tests.c
+Linking C executable cmTC_56e81
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56e81.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_56e81.dir/feature_tests.c.o  -o cmTC_56e81 -rdynamic 
 make[1]: Leaving directory '/home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp'
 
 
@@ -195,14 +195,14 @@ make[1]: Leaving directory '/home/robotclass/fastsim/build/flightcontroller/CMak
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6d46b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6d46b.dir/build.make CMakeFiles/cmTC_6d46b.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_d53ea/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d53ea.dir/build.make CMakeFiles/cmTC_d53ea.dir/build
 make[1]: Entering directory '/home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6d46b.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_6d46b.dir/feature_tests.c.o   -c /home/robotclass/fastsim/build/flightcontroller/CMakeFiles/feature_tests.c
-Linking C executable cmTC_6d46b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d46b.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_6d46b.dir/feature_tests.c.o  -o cmTC_6d46b -rdynamic 
+Building C object CMakeFiles/cmTC_d53ea.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_d53ea.dir/feature_tests.c.o   -c /home/robotclass/fastsim/build/flightcontroller/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d53ea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d53ea.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_d53ea.dir/feature_tests.c.o  -o cmTC_d53ea -rdynamic 
 make[1]: Leaving directory '/home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp'
 
 
@@ -213,28 +213,28 @@ make[1]: Leaving directory '/home/robotclass/fastsim/build/flightcontroller/CMak
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_50747/fast"
-/usr/bin/make -f CMakeFiles/cmTC_50747.dir/build.make CMakeFiles/cmTC_50747.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_d7dea/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d7dea.dir/build.make CMakeFiles/cmTC_d7dea.dir/build
 make[1]: Entering directory '/home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_50747.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_50747.dir/testCXXCompiler.cxx.o -c /home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_50747
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50747.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_50747.dir/testCXXCompiler.cxx.o  -o cmTC_50747 -rdynamic 
+Building CXX object CMakeFiles/cmTC_d7dea.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_d7dea.dir/testCXXCompiler.cxx.o -c /home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_d7dea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7dea.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_d7dea.dir/testCXXCompiler.cxx.o  -o cmTC_d7dea -rdynamic 
 make[1]: Leaving directory '/home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_73d9a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_73d9a.dir/build.make CMakeFiles/cmTC_73d9a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_db2f5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_db2f5.dir/build.make CMakeFiles/cmTC_db2f5.dir/build
 make[1]: Entering directory '/home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_73d9a.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_73d9a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_73d9a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73d9a.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_73d9a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_73d9a -rdynamic  
+Building CXX object CMakeFiles/cmTC_db2f5.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_db2f5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_db2f5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db2f5.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_db2f5.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_db2f5 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -244,8 +244,8 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_73d9a' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJrPifO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_73d9a /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_73d9a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_db2f5' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGi6wD6.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_db2f5 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_db2f5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp'
 
 
@@ -253,14 +253,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_73d9a/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_73d9a.dir/build.make CMakeFiles/cmTC_73d9a.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_db2f5/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_db2f5.dir/build.make CMakeFiles/cmTC_db2f5.dir/build]
   ignore line: [make[1]: Entering directory '/home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_73d9a.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_73d9a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_73d9a]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73d9a.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_73d9a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_73d9a -rdynamic  ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_db2f5.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_db2f5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_db2f5]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db2f5.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_db2f5.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_db2f5 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -270,13 +270,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_73d9a' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJrPifO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_73d9a /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_73d9a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_db2f5' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGi6wD6.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_db2f5 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_db2f5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccJrPifO.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccGi6wD6.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -294,7 +294,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_73d9a] ==> ignore
+    arg [cmTC_db2f5] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -306,7 +306,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_73d9a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_db2f5.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -338,14 +338,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4c166/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4c166.dir/build.make CMakeFiles/cmTC_4c166.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f855e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f855e.dir/build.make CMakeFiles/cmTC_f855e.dir/build
 make[1]: Entering directory '/home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4c166.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_4c166.dir/feature_tests.cxx.o -c /home/robotclass/fastsim/build/flightcontroller/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_4c166
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c166.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_4c166.dir/feature_tests.cxx.o  -o cmTC_4c166 -rdynamic 
+Building CXX object CMakeFiles/cmTC_f855e.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_f855e.dir/feature_tests.cxx.o -c /home/robotclass/fastsim/build/flightcontroller/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f855e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f855e.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_f855e.dir/feature_tests.cxx.o  -o cmTC_f855e -rdynamic 
 make[1]: Leaving directory '/home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp'
 
 
@@ -411,14 +411,14 @@ make[1]: Leaving directory '/home/robotclass/fastsim/build/flightcontroller/CMak
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c1bb7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c1bb7.dir/build.make CMakeFiles/cmTC_c1bb7.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_51cc6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_51cc6.dir/build.make CMakeFiles/cmTC_51cc6.dir/build
 make[1]: Entering directory '/home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c1bb7.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_c1bb7.dir/feature_tests.cxx.o -c /home/robotclass/fastsim/build/flightcontroller/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c1bb7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1bb7.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_c1bb7.dir/feature_tests.cxx.o  -o cmTC_c1bb7 -rdynamic 
+Building CXX object CMakeFiles/cmTC_51cc6.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_51cc6.dir/feature_tests.cxx.o -c /home/robotclass/fastsim/build/flightcontroller/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_51cc6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51cc6.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_51cc6.dir/feature_tests.cxx.o  -o cmTC_51cc6 -rdynamic 
 make[1]: Leaving directory '/home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp'
 
 
@@ -484,14 +484,14 @@ make[1]: Leaving directory '/home/robotclass/fastsim/build/flightcontroller/CMak
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c1a27/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c1a27.dir/build.make CMakeFiles/cmTC_c1a27.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_bbb8d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bbb8d.dir/build.make CMakeFiles/cmTC_bbb8d.dir/build
 make[1]: Entering directory '/home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c1a27.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_c1a27.dir/feature_tests.cxx.o -c /home/robotclass/fastsim/build/flightcontroller/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c1a27
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1a27.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_c1a27.dir/feature_tests.cxx.o  -o cmTC_c1a27 -rdynamic 
+Building CXX object CMakeFiles/cmTC_bbb8d.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_bbb8d.dir/feature_tests.cxx.o -c /home/robotclass/fastsim/build/flightcontroller/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_bbb8d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbb8d.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_bbb8d.dir/feature_tests.cxx.o  -o cmTC_bbb8d -rdynamic 
 make[1]: Leaving directory '/home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp'
 
 
@@ -555,28 +555,28 @@ make[1]: Leaving directory '/home/robotclass/fastsim/build/flightcontroller/CMak
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_83e2f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_83e2f.dir/build.make CMakeFiles/cmTC_83e2f.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_b8bdc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b8bdc.dir/build.make CMakeFiles/cmTC_b8bdc.dir/build
 make[1]: Entering directory '/home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_83e2f.dir/CheckIncludeFile.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_83e2f.dir/CheckIncludeFile.c.o   -c /home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_83e2f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83e2f.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_83e2f.dir/CheckIncludeFile.c.o  -o cmTC_83e2f -rdynamic 
+Building C object CMakeFiles/cmTC_b8bdc.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_b8bdc.dir/CheckIncludeFile.c.o   -c /home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b8bdc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8bdc.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_b8bdc.dir/CheckIncludeFile.c.o  -o cmTC_b8bdc -rdynamic 
 make[1]: Leaving directory '/home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_695bc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_695bc.dir/build.make CMakeFiles/cmTC_695bc.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_cefb7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cefb7.dir/build.make CMakeFiles/cmTC_cefb7.dir/build
 make[1]: Entering directory '/home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_695bc.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_695bc.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_695bc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_695bc.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_695bc.dir/CheckFunctionExists.c.o  -o cmTC_695bc -rdynamic -lpthread 
+Building C object CMakeFiles/cmTC_cefb7.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_cefb7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cefb7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cefb7.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_cefb7.dir/CheckFunctionExists.c.o  -o cmTC_cefb7 -rdynamic -lpthread 
 make[1]: Leaving directory '/home/robotclass/fastsim/build/flightcontroller/CMakeFiles/CMakeTmp'
 
 

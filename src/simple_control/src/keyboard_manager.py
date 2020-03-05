@@ -55,18 +55,24 @@ class KeyboardManager():
     while not rospy.is_shutdown():
 
       # Check if any key has been pressed
-      if self.key_code == 273: #Up
+      if self.key_code == 273: # Up Arrow: +Y
         print("Up key was pressed!")
         self.pos.y += 0.5
-      elif self.key_code == 274: #Down
+      elif self.key_code == 274: # Down Arrow: -Y
         print("Down key was pressed!")
         self.pos.y -= 0.5
-      elif self.key_code == 275: #Right
+      elif self.key_code == 275: # Right Arrow: +X
         print("Right key was pressed!")
         self.pos.x += 0.5
-      elif self.key_code == 276: #Left
+      elif self.key_code == 276: # Left Arrow: -X
         print("Left key was pressed!")
         self.pos.x -= 0.5
+      elif self.key_code == 119: # W: +Z
+        print("Up key was pressed!")
+        self.pos.z += 0.5
+      elif self.key_code == 115: # S: -Z
+        print("Up key was pressed!")
+        self.pos.z -= 0.5
 
       # Log positions typed when they change
       check_x = self.prev_pos.x != self.pos.x
